@@ -9,6 +9,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.0",
     "@octokit/rest": "^21.1.1",
     "axios": "^1.8.4",
     "compression": "^1.7.4",
@@ -19,6 +20,7 @@
     "firebase-admin": "^13.2.0",
     "groq": "^3.80.1",
     "helmet": "^7.1.0",
+    "lru-cache": "^11.0.2",
     "morgan": "^1.10.0",
     "octokit": "^3.2.1",
     "openai": "^4.89.0",
